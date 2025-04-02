@@ -68,7 +68,7 @@ export default function App() {
     <div className="flex flex-col items-center min-h-screen bg-gradient-to-br from-[#1e1e2e] to-[#11111a] p-6">
       <div className="bg-white/10 backdrop-blur-lg shadow-2xl rounded-3xl p-8 w-full max-w-lg transition-all border border-white/20">
         <h1 className="text-4xl font-extrabold text-white mb-6 text-center tracking-wide">
-          🚀 Task Manager📝
+          Task Manager📝
         </h1>
         <TaskInput addTask={addTask} />
         <TaskList tasks={tasks} toggleTask={toggleTask} editTask={editTask} deleteTask={deleteTask} />
